@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  h2:
+    console:
+      enabled: false
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+
+  datasource:
+    url: jdbc:h2:mem:contadb
+    username: user
+    password: 123
+    driver-class-name: org.h2.Driver
